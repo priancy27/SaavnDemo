@@ -1,0 +1,7 @@
+{
+    "env": {
+        "MONGO_URL": "mongodb://localhost:27017/analytics",
+        "JWT_KEY": "secret",
+        "REDIS_EXPIRY": 3000
+    }
+}

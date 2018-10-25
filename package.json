@@ -1,0 +1,31 @@
+{
+  "name": "Saav Demo",
+  "version": "1.0.0",
+  "description": "Demo Saavn",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "keywords": [
+    "node",
+    "restful",
+    "api"
+  ],
+  "author": "Priancy Gahlot",
+  "dependencies": {
+    "bcrypt": "^1.0.3",
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "fast-csv": "^2.4.1",
+    "jsonwebtoken": "^8.1.0",
+    "mongoose": "^5.3.4",
+    "morgan": "^1.9.0",
+    "multer": "^1.3.0",
+    "redis": "^2.8.0",
+    "swagger-jsdoc": "^1.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.12.1"
+  }
+}
